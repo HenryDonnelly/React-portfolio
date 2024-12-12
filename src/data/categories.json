@@ -1,0 +1,22 @@
+[
+    {
+        "value": "Front-End Development",
+        "label": "Front-End Development"
+    },
+    {
+        "value": "Back-End Development",
+        "label": "Back-End Development"
+    },
+    {
+        "value": "Full-Stack Development",
+        "label": "Full-Stack Development"
+    },
+    {
+        "value": "Design",
+        "label": "Design"
+    },
+    {
+        "value": "game Development",
+        "label": "Game Development"
+    }
+]
