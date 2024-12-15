@@ -12,7 +12,7 @@ const ProjectCard = ({project}) => {
 
     return(
 
-        <Card.Root flexDirection="row" overflow="hidden" maxW="xl" variant={"elevated"}>
+        <Card.Root flexDirection="row" overflow="hidden" maxW="xl" variant={"elevated"} style={{backgroundColor:'transparent', color:'white'}}>
         <Image
           objectFit="cover"
           maxW="200px"
@@ -22,7 +22,7 @@ const ProjectCard = ({project}) => {
         <Box>
           <Card.Body>
             <Card.Title mb="2">{project.title}</Card.Title>
-            <Card.Description>
+            <Card.Description style={{color:'white'}}>
               {project.description}
             </Card.Description>
             <HStack mt="4">
