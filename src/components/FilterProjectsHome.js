@@ -1,4 +1,4 @@
-import projectsList from '../data/projects.json';
+import projectsList from '../data/hostedProjects.json';
 
 const FilterProjectsHome = ({ setSearchTerm, setSelectedTitle }) => {
     // Make sure to map through all the projects and extract the titles
@@ -11,7 +11,7 @@ const FilterProjectsHome = ({ setSearchTerm, setSelectedTitle }) => {
                 name="title" 
                 style={{ marginBottom: '30px', color: 'white', backgroundColor: 'black' }}
             >
-                <option value={"All"}>All</option>
+                <option value={"All"}>Select</option>
                 {projectTitles.map((title, index) => (
                     <option key={index} value={title}>{title}</option>
                 ))}

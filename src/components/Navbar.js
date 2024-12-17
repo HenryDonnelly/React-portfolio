@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'; 
+import { Button } from '@chakra-ui/react';
+import {Link as ChakraLink} from '@chakra-ui/react'
 
 const Navbar = () => {
     return (
@@ -12,9 +14,19 @@ const Navbar = () => {
       }}
     >
            <Link to={"/"}>Home</Link> |
-           <Link to={"/about"}>About</Link> |
-           <Link to='/contact'>Contact</Link> |
-           <Link to='/projects'>Projects</Link>
+           <Link to='/projects'>Projects</Link> |
+           <ChakraLink 
+               href="https://www.linkedin.com/in/henry-donnelly-679742296/" 
+               target="_blank"
+               color="white"
+               textDecoration="none"
+               _hover={{
+                   textDecoration: 'underline',
+                   color: 'blue.500',
+               }}
+           >
+               LinkedIn
+           </ChakraLink>
         </div>
     );
 };

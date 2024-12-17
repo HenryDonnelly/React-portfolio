@@ -50,14 +50,15 @@ const Index = () => {
     });
 
     return (
-        <>
-            <h1>Projects</h1>
+        <div style={{ minHeight: '100vh', width:'vw-100', textAlign:"left", position:'relative', backgroundImage:"url(/images/20241204222810_1.jpg)" }}>      
+            <div style={{paddingTop:'50px', display:'flex', flexDirection:'column', maxWidth:'180px'}}>
             <FilterProjects setSearchTerm={setSearchTerm} setSelectedCategory={setSelectedCategory} />
-            <Grid templateColumns="repeat(2, 1fr)" gap="6">
+            </div>  
+            <Grid templateColumns="repeat(2, 1fr)" gap="6" justifyItems="center" mt="4">
                 {projectCards}
             </Grid>
-
-        </>
+        </div>
+        
     );
 
 };

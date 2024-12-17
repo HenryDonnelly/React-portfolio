@@ -45,61 +45,41 @@
     {
         "slug": "medical-app",
         "title": "Medical API",
-        "description": "This was my first React application. I used localStorage to store my todo items.",
-        "categories": ["Back-End Development"],
-        "technologies": ["Express JS", "MongoDB"],
+        "description": "This was my second hosted React application.",
+        "categories": ["Front-End Development", "Design"],
+        "technologies": ["Mantine", "React", "Axios"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "todo-1.png"
+                "url": "red-cross01.png"
             }
         ],
         "links": [
             {
                 "title": "Website",
-                "url": "https://react-todo.web.app"
+                "url": "https://medical-clinic-27bac.web.app/"
             }
         ],
         "date": "2024",
         "gitHub": "https://google.com"
     },
     {
-        "slug": "example-php-app",
-        "title": "PHP Note Taking app",
-        "description": "This was my PHP application. I used localStorage to store my todo items.",
-        "categories": ["Full-Stack Development"],
-        "technologies": ["PHP", "Laravel"],
+        "slug": "react-countries",
+        "demo": "countries-app",
+        "title": "Country API",
+        "description": "This was my first hosted React application.",
+        "categories": ["Front-End Development"],
+        "technologies": ["React.js", "Bootstrap CSS", "Multiple APIs", "Axios"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "todo-1.png"
+                "url": "world.png"
             }
         ],
         "links": [
             {
                 "title": "Website",
-                "url": "https://react-todo.web.app"
-            }
-        ],
-        "date": "2024",
-        "gitHub": "https://google.com"
-    },
-    {
-        "slug": "unity-game",
-        "title": "Unity Game",
-        "description": "This was my unity game. I used localStorage to store my todo items.",
-        "categories": ["game Development"],
-        "technologies": ["c#"],
-        "images": [
-            {
-                "caption": "Screenshot 1",
-                "url": "todo-1.png"
-            }
-        ],
-        "links": [
-            {
-                "title": "Website",
-                "url": "https://react-todo.web.app"
+                "url": "https://henry-s-portfol.web.app/"
             }
         ],
         "date": "2024",

@@ -1,0 +1,44 @@
+[{
+    "slug": "medical-app",
+    "title": "Medical API",
+    "description": "This was my second hosted React application.",
+    "categories": ["Front-End Development", "Design"],
+    "technologies": ["Mantine", "React"],
+    "images": [
+        {
+            "caption": "Screenshot 1",
+            "url": "red-cross01.png"
+        }
+    ],
+    "links": [
+        {
+            "title": "Website",
+            "url": "https://medical-clinic-27bac.web.app/"
+        }
+    ],
+    "date": "2024",
+    "gitHub": "https://google.com"
+},
+{
+    "slug": "react-countries",
+    "demo": "countries-app",
+    "title": "Country API",
+    "description": "This was my first hosted React application.",
+    "categories": ["Front-End Development"],
+    "technologies": ["React.js", "Bootstrap CSS", "Multiple APIs"],
+    "images": [
+        {
+            "caption": "Screenshot 1",
+            "url": "world.png"
+        }
+    ],
+    "links": [
+        {
+            "title": "Website",
+            "url": "https://henry-s-portfol.web.app/"
+        }
+    ],
+    "date": "2024",
+    "gitHub": "https://google.com"
+}
+]

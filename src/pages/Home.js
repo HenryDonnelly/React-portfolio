@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import projectsJSON from '../data/projects.json';
-import ProjectCard from '../components/ProjectCard';
+import projectsJSON from '../data/hostedProjects.json';
+import ProjectCard from '../components/ProjectCardHome';
 import { Badge, Box, Card, HStack, Image, Container, Text, Button, Select,  } from "@chakra-ui/react"
 import { IconButton } from "@chakra-ui/react"
 import { LuSearch } from "react-icons/lu"
@@ -50,7 +50,7 @@ const Home = () => {
             {selectedProject ? (
                         <ProjectCard key={selectedProject.id} project={selectedProject} />
                     ) : (
-                        <p>Feel free to check out the rest by using the navbar.</p>
+                        <p>These are my hosted react apps, feel free to check out my other <br /> apps with the projects link.</p>
                     )}
             </Box>
             </div>

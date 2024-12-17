@@ -10,9 +10,12 @@ const ProjectCard = ({project}) => {
         return <Badge key={i}>{technology}</Badge>
     });
 
+    const primaryLink = project.links[0]?.url
+    const linkText = primaryLink !== "#" ? new URL(primaryLink).hostname.replace("www.", "") : "Unavailable";
+  
     return(
 
-        <Card.Root flexDirection="row" overflow="hidden" maxW="xl" variant={"unstyled"} style={{backgroundColor:'transparent', color:'white'}}>
+        <Card.Root flexDirection="row" overflow="hidden" maxW="xl" variant={"elevated"} style={{backgroundColor:'transparent', color:'white'}}>
         <Image
           objectFit="cover"
           maxW="200px"
@@ -30,7 +33,7 @@ const ProjectCard = ({project}) => {
             </HStack>
           </Card.Body>
           <Card.Footer>
-            <Button asChild><Link to={`/projects/${project.slug}`} >View</Link></Button>
+            <Button as="a" href={primaryLink} target="_blank">{linkText}</Button>
           </Card.Footer>
         </Box>
       </Card.Root>

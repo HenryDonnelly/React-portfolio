@@ -8,8 +8,6 @@ const Show = () => {
     const [project, setProject] = useState(null);
     const { slug } = useParams();
 
-    const Demo = lazy(() => import(`./demos/${project.demo}/App`));
-
     useEffect(() => {
 
         const found = projectsList.find((project) => {
@@ -24,24 +22,16 @@ const Show = () => {
 
     if(project === undefined) return <Navigate to={`/project/${slug}`} />
 
-    return (
-        <>
+    return (  
+        <div style={{ minHeight: '100vh', width:'vw-100',display:'flex', justifyContent:"center", textAlign:"center", flexDirection:"column", alignItems:"center", position:'relative', backgroundImage:"url(/images/20241204010240_1.jpg)", color:"white" }}>      
             <h2>Title: {project.title}</h2>
             <p>{project.description}</p>
-            <p>{project.technologies}</p>
-
-            {
-                (project.demo) ? (
-                    <Suspense fallback={<span className="loading loading-ring loading-lg"></span>}>
-                        <>
-                            <h2 className='font-bold underline'>Demo</h2>
-                            <Demo />
-                        </>
-                    </Suspense>
-                ) : ("")
-            }
-            
-        </>
+            <p>Created with:</p>
+            <p>{project.technologies[0]}</p>
+            <p>{project.technologies[1]}</p>
+            <p>{project.technologies[2]}</p>
+            <p>{project.technologies[3]}</p>
+        </div>
     );
 
 };
