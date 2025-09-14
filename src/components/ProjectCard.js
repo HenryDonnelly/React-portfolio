@@ -12,10 +12,11 @@ const ProjectCard = ({project}) => {
 
     return(
 
-        <Card.Root flexDirection="row" overflow="hidden" maxW="xl" variant={"unstyled"} style={{backgroundColor:'transparent', color:'white'}}>
+        <Card.Root flexDirection="row" overflow="hidden" maxW="xl"  variant={"unstyled"} style={{backgroundColor:'transparent', color:'white'}}>
         <Image
           objectFit="cover"
-          maxW="200px"
+          width="200px"
+          height="200px"
           src={`/images/${project.images[0].url}`}
           alt={project.images[0].caption}
         />
@@ -30,7 +31,9 @@ const ProjectCard = ({project}) => {
             </HStack>
           </Card.Body>
           <Card.Footer>
-            <Button asChild><Link to={`/projects/${project.slug}`} >View</Link></Button>
+          <Link to={`/projects/${project.slug}`} className="paint-button">
+            View
+          </Link>
           </Card.Footer>
         </Box>
       </Card.Root>

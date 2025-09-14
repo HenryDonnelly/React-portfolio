@@ -9,7 +9,9 @@ import PageNotFound from './pages/PageNotFound';
 import RedirectExample from './pages/RedirectExample';
 import ProjectsIndex from './pages/projects/Index';
 import ProjectsShow from './pages/projects/Show';
-import { Container } from "@chakra-ui/react"
+import { Container } from "@chakra-ui/react";
+import LighthousePage from './pages/lighthouse.jsx';
+
 
 //components
 import Navbar from './components/Navbar';
@@ -18,7 +20,6 @@ const App = () => {
     return (
         <Provider>
         <Router>
-        <Navbar />
             <Routes>
                 <Route path={"/"} element={<Home />}  />
                 <Route path={"/about"} element={<About />}  />
@@ -27,6 +28,9 @@ const App = () => {
 
                 <Route path={"/projects"} element={<ProjectsIndex />} />
                 <Route path={"/projects/:slug"} element={<ProjectsShow />} />
+
+                <Route path={"/lighthouse"} element={<LighthousePage />}  />
+
 
                 <Route path="*" element={<PageNotFound />} />
             </Routes>

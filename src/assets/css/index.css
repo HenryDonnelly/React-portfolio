@@ -47,3 +47,53 @@
     -webkit-animation-delay:0s; /* Safari 和 Chrome */
   }
 /* https://www.youtube.com/shorts/tlv4jayQchc */
+
+.paint-button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 20px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+}
+
+.paint-button:hover {
+  background-color: white;
+  color: black;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0; /* Ensure hidden before animation */
+  animation: fadeInUp 1.2s ease-out forwards;
+  animation-delay: 0.3s
+}
+
+.fade-in-up-delay-1 {
+  animation-delay: 0.2s;
+}
+
+.fade-in-up-delay-2 {
+  animation-delay: 0.4s;
+}
+
+.fade-in-up-delay {
+  opacity: 0;
+  animation: fadeInUp 1.2s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+

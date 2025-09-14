@@ -24,7 +24,7 @@
     {
         "slug": "react-giphy",
         "title": "React Giphy App",
-        "description": "This was my first application that connects to an API.",
+        "description": "This was the first application I built that connects to an API.",
         "categories": ["Front-End Development"],
         "technologies": ["React.js", "Bootstrap CSS", "Axios", "APIs"],
         "images": [
@@ -83,6 +83,28 @@
             }
         ],
         "date": "2024",
+        "gitHub": "https://google.com"
+    },
+    {
+        "slug": "bookie-app",
+        "demo": "bookie-app",
+        "title": "Book API",
+        "description": "This was my third year final project.",
+        "categories": ["Front-End Development", "Design", "Back-End Development"],
+        "technologies": ["Flowbite", "React"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "bookiebook2.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://bookie-862d1.web.app/login"
+            }
+        ],
+        "date": "2025",
         "gitHub": "https://google.com"
     }
 ]

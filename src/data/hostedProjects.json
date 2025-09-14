@@ -20,6 +20,26 @@
     "gitHub": "https://google.com"
 },
 {
+    "slug": "bookie-app",
+    "title": "Book API",
+    "description": "This was my third year final project.",
+    "categories": ["Front-End Development", "Design", "Back-End Development"],
+    "technologies": ["Flowbite", "React"],
+    "images": [
+        {
+            "caption": "Screenshot 1",
+            "url": "red-cross01.png"
+        }
+    ],
+    "links": [
+        {
+            "title": "Website",
+            "url": "https://bookie-862d1.web.app/login"
+        }
+    ],
+    "date": "2025",
+    "gitHub": "https://google.com"
+},{
     "slug": "react-countries",
     "demo": "countries-app",
     "title": "Country API",

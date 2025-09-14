@@ -3,6 +3,8 @@ import ProjectCard from '../../components/ProjectCard';
 import projectsJSON from '../../data/projects.json';
 import FilterProjects from '../../components/FilterProjects';
 import { Grid } from "@chakra-ui/react"
+import ProjectGlowCard from '../../components/ProjectGlowCard';
+import Navbar from '../../components/Navbar';
 
 
 const Index = () => {
@@ -46,17 +48,26 @@ const Index = () => {
     }, [selectedCategory]);
 
     const projectCards = filteredList.map((project, index) => {
-        return <ProjectCard key={index} project={project} />;
+        return (
+        <ProjectGlowCard key={index} >
+            <ProjectCard project={project} />
+        </ProjectGlowCard>
+        )
     });
 
     return (
-        <div style={{ minHeight: '100vh', width:'vw-100', textAlign:"left", position:'relative', backgroundImage:"url(/images/20241204222810_1.jpg)" }}>      
+        // backgroundImage:"url(/images/20241204222810_1.jpg)"
+        
+        <div style={{ minHeight: '100vh', width:'vw-100', textAlign:"left", position:'relative', backgroundColor: '#111'}}>  
+        <Navbar/>    
             <div style={{paddingTop:'50px', display:'flex', flexDirection:'column', maxWidth:'180px'}}>
             <FilterProjects setSearchTerm={setSearchTerm} setSelectedCategory={setSelectedCategory} />
-            </div>  
+            </div> 
+            <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 16px' }}> 
             <Grid templateColumns="repeat(2, 1fr)" gap="6" justifyItems="center" mt="4">
-                {projectCards}
+                {projectCards} 
             </Grid>
+            </div>
         </div>
         
     );

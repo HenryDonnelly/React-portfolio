@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@chakra-ui/react';
 import {Link as ChakraLink} from '@chakra-ui/react'
 
+
 const Navbar = () => {
     return (
         <div style={{position: 'absolute',top: 0,width: '100%',zIndex: 3,
@@ -15,6 +16,7 @@ const Navbar = () => {
     >
            <Link to={"/"}>Home</Link> |
            <Link to='/projects'>Projects</Link> |
+           {/* <Link to="/lighthouse">LightHOUSE!!!!</Link> */}
            <ChakraLink 
                href="https://www.linkedin.com/in/henry-donnelly-679742296/" 
                target="_blank"
