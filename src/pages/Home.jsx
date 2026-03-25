@@ -107,7 +107,7 @@
 
 <Box height="100vh" position="relative" scrollSnapAlign="start">
   <Image
-    src="/images/wow9.jpg"
+    src="/images/bg2.jpg"
     style={{ width: "100%", height: "100%", objectFit: "cover" }}
   />
 
@@ -126,10 +126,10 @@
   >
     {/* Left column: text */}
     <Box display="flex" flexDirection="column" justifyContent="flex-end" marginBottom="8vw">
-      <Text fontSize="3xl" mb={4}>
+      <Text fontSize="3xl" mb={4} paddingLeft="1vw">
         These are my currently hosted projects
       </Text>
-      <Text fontSize="md">
+      <Text fontSize="md" paddingLeft="1vw">
         Feel free to check out my smaller projects with the navbar
       </Text>
     </Box>
@@ -138,8 +138,38 @@
 
     {/* Right column: card */}
     <Box display="flex" flexDirection="column" gap={6}>
-    <FadeInCard delay={0}>
-      <Card.Root flexDirection="row" overflow="hidden" maxW="xl" maxH="30vh" bg="rgba(0,0,0,0.4)" p={4} border="none">
+      <FadeInCard delay={0}>
+      <Card.Root flexDirection="row" overflow="hidden" maxW="xl" maxH="30vh" bg="rgba(0,0,0,0.2)" borderRadius="md" p={4}  border="none" justifySelf="center">
+        <Image
+          objectFit="contain"
+          maxW="200px"
+          MaxH="200px"
+          src="./images/vr11.svg"
+          alt="Caffe Latte"
+          borderRadius="md"
+          filter="brightness(0) invert(0.75)"
+          opacity={0.5}
+        />
+        <Box ml={4} color="white">
+          <Card.Body>
+            <Card.Title mb="2">QuestQCPR</Card.Title>
+            <Card.Description display={{ base: "none", xl: "block" }} color="grey">
+              This was my final year AR CPR project for college
+            </Card.Description>
+            <HStack mt="4">
+              <Badge>Augmented Reality</Badge>
+              <Badge>C#</Badge>
+              <Badge>Unity</Badge>
+            </HStack>
+          </Card.Body>
+          <Card.Footer>
+            <Button as="a" href="https://first-aid-site-eight.vercel.app/" className="paint-button" bg="rgba(0,0,0,0.3)">View website</Button>
+          </Card.Footer>
+        </Box>
+      </Card.Root>
+      </FadeInCard>
+    <FadeInCard delay={0.7}>
+      <Card.Root flexDirection="row" overflow="hidden" maxW="xl" maxH="30vh" bg="rgba(0,0,0,0.2)" p={4} border="none"  justifySelf="center">
         <Image
           objectFit="cover"
           maxW="200px"
@@ -147,6 +177,7 @@
           alt="Caffe Latte"
           borderRadius="md"
           border="none"
+          opacity={0.5}
         />
         <Box ml={0} color="white">
           <Card.Body marginLeft="1vw">
@@ -161,19 +192,21 @@
             </HStack>
           </Card.Body>
           <Card.Footer>
-            <Button as="a" href="https://bookie-862d1.web.app" className="paint-button" marginLeft="1vw">View website</Button>
+            <Button as="a" href="https://bookie-862d1.web.app" className="paint-button" marginLeft="1vw" bg="rgba(0,0,0,0.3)">View website</Button>
           </Card.Footer>
         </Box>
       </Card.Root>
       </FadeInCard>
-      <FadeInCard delay={0.7}>
-      <Card.Root flexDirection="row" overflow="hidden" maxW="xl" maxH="30vh" bg="rgba(0,0,0,0.4)" borderRadius="md" p={4}  border="none">
+      <FadeInCard delay={1.4}>
+      <Card.Root flexDirection="row" overflow="hidden" maxW="xl" maxH="30vh" bg="rgba(0,0,0,0.2)" borderRadius="md" p={4}  border="none" justifySelf="center">
         <Image
           objectFit="cover"
+          minW="200px"
           maxW="200px"
           src="./images/cross1.png"
           alt="Caffe Latte"
           borderRadius="md"
+          opacity={0.5}
         />
         <Box ml={4} color="white">
           <Card.Body>
@@ -187,32 +220,7 @@
             </HStack>
           </Card.Body>
           <Card.Footer>
-            <Button as="a" href="http://medical-clinic-27bac.web.app" className="paint-button">View website</Button>
-          </Card.Footer>
-        </Box>
-      </Card.Root>
-      </FadeInCard>
-      <FadeInCard delay={1.4}>
-      <Card.Root flexDirection="row" overflow="hidden" maxW="xl" maxH="30vh" bg="rgba(0,0,0,0.4)" borderRadius="md" p={4}  border="none">
-        <Image
-          objectFit="cover"
-          maxW="200px"
-          src="./images/world.png"
-          alt="Caffe Latte"
-          borderRadius="md"
-        />
-        <Box ml={4} color="white">
-          <Card.Body>
-            <Card.Title mb="2">Country info</Card.Title>
-            <Card.Description display={{ base: "none", xl: "block" }} color="grey">
-              This was my first attempt at working with react.
-            </Card.Description>
-            <HStack mt="4">
-              <Badge>React</Badge>
-            </HStack>
-          </Card.Body>
-          <Card.Footer>
-            <Button as="a" href="https://henry-s-portfol.web.app/" className="paint-button">View website</Button>
+            <Button as="a" href="http://medical-clinic-27bac.web.app" className="paint-button" bg="rgba(0,0,0,0.3)">View website</Button>
           </Card.Footer>
         </Box>
       </Card.Root>
@@ -222,22 +230,9 @@
   </Box>
   <Box height="100vh" position="relative" scrollSnapAlign="start">
   <Image
-    src="/images/wow0.jpg"
+    src="/images/lga.jpg"
     style={{ width: "100%", height: "100%", objectFit: "cover" }}
   />
-      <Box
-            pos="absolute"
-            top="50%"
-            left="40%"
-            transform="translate(-50%, -50%)"
-            color="white"
-            fontSize="5xl"
-            display="flex"
-            flexDirection="column"
-            zIndex={2}
-          >
-            <Text>Currently working on a full-stack website for clothing and adding to my portfolio site</Text>
-          </Box>
   </Box>
   </Box> 
 

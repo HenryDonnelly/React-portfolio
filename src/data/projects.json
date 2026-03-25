@@ -1,45 +1,44 @@
 [
     {
-        "slug": "react-todo-app",
-        "demo": "todo-app",
-        "title": "React Todo App",
-        "description": "This was my first React application. I used localStorage to store my todo items.",
+        "slug": "QuestQCPR",
+        "title": "QuestQCPR",
+        "description": "This was my final year project",
         "categories": ["Front-End Development", "Design"],
-        "technologies": ["React.js", "Bootstrap CSS"],
+        "technologies": ["C#", "Unity"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "todo-1.png"
+                "url": "vr12.svg"
             }
         ],
         "links": [
             {
                 "title": "Website",
-                "url": "https://react-todo.web.app"
+                "url": "https://first-aid-site-eight.vercel.app/"
             }
         ],
         "date": "2024",
         "gitHub": "https://google.com"
-    },
-    {
-        "slug": "react-giphy",
-        "title": "React Giphy App",
-        "description": "This was the first application I built that connects to an API.",
-        "categories": ["Front-End Development"],
-        "technologies": ["React.js", "Bootstrap CSS", "Axios", "APIs"],
+    }, {
+        "slug": "bookie-app",
+        "demo": "bookie-app",
+        "title": "Book API",
+        "description": "This was my third year final project.",
+        "categories": ["Front-End Development", "Design", "Back-End Development"],
+        "technologies": ["Flowbite", "React"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "giphy-1.png"
+                "url": "bookiebook2.png"
             }
         ],
         "links": [
             {
                 "title": "Website",
-                "url": "https://react-giphy.web.app"
+                "url": "https://bookie-862d1.web.app/login"
             }
         ],
-        "date": "2024",
+        "date": "2025",
         "gitHub": "https://google.com"
     },
     {
@@ -48,6 +47,48 @@
         "description": "This was my second hosted React application.",
         "categories": ["Front-End Development", "Design"],
         "technologies": ["Mantine", "React", "Axios"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "red-cross01.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://medical-clinic-27bac.web.app/"
+            }
+        ],
+        "date": "2024",
+        "gitHub": "https://google.com"
+    },
+    {
+        "slug": "FER-25",
+        "title": "Emotion CNN",
+        "description": "Created a CNN to detect emotions",
+        "categories": ["Front-End Development", "Design"],
+        "technologies": ["Python", "Jupyter Notebook"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "red-cross01.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://medical-clinic-27bac.web.app/"
+            }
+        ],
+        "date": "2024",
+        "gitHub": "https://google.com"
+    },
+    {
+        "slug": "DAcrime",
+        "title": "Crime prediction",
+        "description": "Trained a model to predict Y+1 Crime statistics",
+        "categories": ["Front-End Development", "Design"],
+        "technologies": ["Python", "Jupyter Notebook"],
         "images": [
             {
                 "caption": "Screenshot 1",
@@ -78,33 +119,51 @@
         ],
         "links": [
             {
-                "title": "Website",
-                "url": "https://henry-s-portfol.web.app/"
+                "title": "Website"
             }
         ],
         "date": "2024",
         "gitHub": "https://google.com"
     },
     {
-        "slug": "bookie-app",
-        "demo": "bookie-app",
-        "title": "Book API",
-        "description": "This was my third year final project.",
-        "categories": ["Front-End Development", "Design", "Back-End Development"],
-        "technologies": ["Flowbite", "React"],
+        "slug": "react-todo-app",
+        "demo": "todo-app",
+        "title": "React Todo App",
+        "description": "This was my first React application",
+        "categories": ["Front-End Development", "Design"],
+        "technologies": ["React.js", "Bootstrap CSS"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "bookiebook2.png"
+                "url": "todo-1.png"
             }
         ],
         "links": [
             {
-                "title": "Website",
-                "url": "https://bookie-862d1.web.app/login"
+                "title": "Website"
             }
         ],
-        "date": "2025",
+        "date": "2024",
+        "gitHub": "https://google.com"
+    },
+    {
+        "slug": "react-giphy",
+        "title": "React Giphy App",
+        "description": "This was the first react application I built",
+        "categories": ["Front-End Development"],
+        "technologies": ["React.js", "Bootstrap CSS", "Axios", "APIs"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "giphy-1.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website"
+            }
+        ],
+        "date": "2024",
         "gitHub": "https://google.com"
     }
 ]
