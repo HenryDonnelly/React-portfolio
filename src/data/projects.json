@@ -3,8 +3,10 @@
         "slug": "QuestQCPR",
         "title": "QuestQCPR",
         "description": "This was my final year project",
-        "categories": ["Front-End Development", "Design"],
+        "description2": "The goal of creating this app was to provide in-depth CPR training using an augmented reality overlay. It features menus, instructions, and guides on performing CPR. Only available on the Meta Quest 3 as it was developed on Meta's SDK.",
+        "categories": ["Back-End Development", "Design"],
         "technologies": ["C#", "Unity"],
+        "ytvideo": "https://www.youtube.com/embed/C9YFn1GDVGo",
         "images": [
             {
                 "caption": "Screenshot 1",
@@ -22,14 +24,16 @@
     }, {
         "slug": "bookie-app",
         "demo": "bookie-app",
-        "title": "Book API",
+        "title": "Bookie",
         "description": "This was my third year final project.",
+        "description2": "This was my 3rd year final project where I designed the Back-End for a book trading website. Created CRUD functionality for book-trading, real-time chatting, forum posting, friend requests, and wishlisting.",
         "categories": ["Front-End Development", "Design", "Back-End Development"],
-        "technologies": ["Flowbite", "React"],
+        "technologies": ["React", "Laravel", "Openlibrary API"],
+        "showImage":"/images/dbsnip.png",
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "bookiebook2.png"
+                "url": "b.svg"
             }
         ],
         "links": [
@@ -45,12 +49,14 @@
         "slug": "medical-app",
         "title": "Medical API",
         "description": "This was my second hosted React application.",
+        "description2": "This was simple Front-End I built for a practice hospital database. Features CRUD functionality and privacy depending on the users role.",
         "categories": ["Front-End Development", "Design"],
         "technologies": ["Mantine", "React", "Axios"],
+        "showImage":"/images/hpsnip.png",
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "red-cross01.png"
+                "url": "h.svg"
             }
         ],
         "links": [
@@ -66,18 +72,13 @@
         "slug": "FER-25",
         "title": "Emotion CNN",
         "description": "Created a CNN to detect emotions",
-        "categories": ["Front-End Development", "Design"],
+        "description2": "Developed a CNN built to detect the users emotions based on what their camera detects. Used a popular kaggle database called FER2013 for this.",
+        "categories": ["Design"],
         "technologies": ["Python", "Jupyter Notebook"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "red-cross01.png"
-            }
-        ],
-        "links": [
-            {
-                "title": "Website",
-                "url": "https://medical-clinic-27bac.web.app/"
+                "url": "c.svg"
             }
         ],
         "date": "2024",
@@ -86,19 +87,14 @@
     {
         "slug": "DAcrime",
         "title": "Crime prediction",
-        "description": "Trained a model to predict Y+1 Crime statistics",
-        "categories": ["Front-End Development", "Design"],
+        "description": "Trained a model to predict NYC Crime statistics",
+        "description2": "Trained and tested a CNN to analyse publicly available information (NYC.gov) to create a trend in crime statistics and predict what the next years value would be. Repeated for unemployment rates and made comparisons.",
+        "categories": ["Design"],
         "technologies": ["Python", "Jupyter Notebook"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "red-cross01.png"
-            }
-        ],
-        "links": [
-            {
-                "title": "Website",
-                "url": "https://medical-clinic-27bac.web.app/"
+                "url": "lc.svg"
             }
         ],
         "date": "2024",
@@ -109,53 +105,13 @@
         "demo": "countries-app",
         "title": "Country API",
         "description": "This was my first hosted React application.",
+        "description2": "For my first react application, I created a basic search engine for a country index API and created \"sort by\" functionality.",
         "categories": ["Front-End Development"],
         "technologies": ["React.js", "Bootstrap CSS", "Multiple APIs", "Axios"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "world.png"
-            }
-        ],
-        "links": [
-            {
-                "title": "Website"
-            }
-        ],
-        "date": "2024",
-        "gitHub": "https://google.com"
-    },
-    {
-        "slug": "react-todo-app",
-        "demo": "todo-app",
-        "title": "React Todo App",
-        "description": "This was my first React application",
-        "categories": ["Front-End Development", "Design"],
-        "technologies": ["React.js", "Bootstrap CSS"],
-        "images": [
-            {
-                "caption": "Screenshot 1",
-                "url": "todo-1.png"
-            }
-        ],
-        "links": [
-            {
-                "title": "Website"
-            }
-        ],
-        "date": "2024",
-        "gitHub": "https://google.com"
-    },
-    {
-        "slug": "react-giphy",
-        "title": "React Giphy App",
-        "description": "This was the first react application I built",
-        "categories": ["Front-End Development"],
-        "technologies": ["React.js", "Bootstrap CSS", "Axios", "APIs"],
-        "images": [
-            {
-                "caption": "Screenshot 1",
-                "url": "giphy-1.png"
+                "url": "e.svg"
             }
         ],
         "links": [

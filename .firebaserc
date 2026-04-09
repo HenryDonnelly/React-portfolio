@@ -1,5 +1,7 @@
 {
   "projects": {
     "default": "henry-18419"
-  }
+  },
+  "targets": {},
+  "etags": {}
 }
