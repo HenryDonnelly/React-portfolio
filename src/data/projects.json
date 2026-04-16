@@ -29,7 +29,7 @@
         "description2": "This was my 3rd year final project where I designed the Back-End for a book trading website. Created CRUD functionality for book-trading, real-time chatting, forum posting, friend requests, and wishlisting.",
         "categories": ["Front-End Development", "Design", "Back-End Development"],
         "technologies": ["React", "Laravel", "Openlibrary API"],
-        "showImage":"/images/dbsnip.png",
+        "showImage":"/images/dbsnip.PNG",
         "images": [
             {
                 "caption": "Screenshot 1",
@@ -52,7 +52,7 @@
         "description2": "This was simple Front-End I built for a practice hospital database. Features CRUD functionality and privacy depending on the users role.",
         "categories": ["Front-End Development", "Design"],
         "technologies": ["Mantine", "React", "Axios"],
-        "showImage":"/images/hpsnip.png",
+        "showImage":"/images/hpsnip.PNG",
         "images": [
             {
                 "caption": "Screenshot 1",
@@ -75,6 +75,7 @@
         "description2": "Developed a CNN built to detect the users emotions based on what their camera detects. Used a popular kaggle database called FER2013 for this.",
         "categories": ["Design"],
         "technologies": ["Python", "Jupyter Notebook"],
+        "showImage":"/images/FERH.png",
         "images": [
             {
                 "caption": "Screenshot 1",
@@ -112,6 +113,29 @@
             {
                 "caption": "Screenshot 1",
                 "url": "e.svg"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website"
+            }
+        ],
+        "date": "2024",
+        "gitHub": "https://google.com"
+    },
+    {
+        "slug": "react-portfolio",
+        "demo": "portfolio-app",
+        "title": "Portfolio Site",
+        "description": "This is the third redesign of my portfolio",
+        "description2": "Third (and probably not final) attempt at creating a portfolio to host my project showcase. Features basic front-end design techniques like relying heavily on images, random unused CSS classes etc.",
+        "categories": ["Front-End Development"],
+        "technologies": ["React.js", "Bootstrap CSS"],
+        "showImage":"/images/d.PNG",
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "p.svg"
             }
         ],
         "links": [

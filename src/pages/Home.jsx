@@ -233,7 +233,83 @@
     src="/images/lga.jpg"
     style={{ width: "100%", height: "100%", objectFit: "cover" }}
   />
-  </Box>
+
+  <Grid
+    templateColumns="repeat(3, 1fr)"  // 3 horizontal boxes
+    position="absolute"
+    bottom="0"                        // align the grid to the bottom
+    left="0"
+    width="100%"
+    px={20}                           // horizontal padding
+    color="white"
+    zIndex={2}
+    alignItems="end"                  // align content to the bottom
+    gap={10}
+  >
+
+    <Box display="flex" flexDirection="column" justifyContent="flex-end" marginBottom="6vw">
+      <Text fontSize="3xl" mb={4}>
+        View my contacts here
+      </Text>
+      <Text fontSize="md">
+        Email and Linkedin
+      </Text>
+    </Box>
+
+<FadeInCard delay={0} vertical>
+    <Box display="flex" flexDirection="column" justifyContent="flex-end" marginBottom="5vw">
+      <Card.Root flexDirection="row" overflow="hidden" maxW="xl" maxH="15vh" bg="rgba(0,0,0,0.2)" p={4} border="none"  justifySelf="center">
+        <Image
+          objectFit="cover"
+          maxW="100px"
+          maxH="100px"
+          src="./images/lw.svg"
+          alt="Caffe Latte"
+          borderRadius="md"
+          border="none"
+          opacity={0.5}
+          padding={4}
+        />
+        <Box ml={0} color="white" >
+          <Card.Body margin="0" padding="0" marginLeft="1vw" marginTop="0">
+            <Card.Title marginTop="3">Linkedin</Card.Title>
+          </Card.Body>
+          <Card.Footer>
+            <Button size="xs" marginTop="2" as="a" href="https://www.linkedin.com/in/henry-donnelly-679742296/" className="paint-button"  bg="rgba(0,0,0,0.3)">View Profile</Button>
+          </Card.Footer>
+        </Box>
+      </Card.Root>
+    </Box>
+</FadeInCard>
+
+<FadeInCard delay={0} vertical>
+    <Box display="flex" flexDirection="column" justifyContent="flex-end" marginBottom="5vw">
+      <Card.Root flexDirection="row" overflow="hidden" maxW="xl" maxH="15vh" bg="rgba(0,0,0,0.2)" p={4} border="none"  justifySelf="center">
+        <Image
+          objectFit="cover"
+          maxW="100px"
+          maxH="100px"
+          src="./images/ew.svg"
+          alt="Caffe Latte"
+          borderRadius="md"
+          border="none"
+          opacity={0.5}
+        />
+        <Box ml={0} color="white" >
+          <Card.Body margin="0" padding="0" marginLeft="1vw" marginTop="0">
+            <Card.Title marginTop="3">Email</Card.Title>
+          </Card.Body>
+          <Card.Footer>
+            <Button size="xs" marginTop="2" as="a" href="mailto:henrydonn04@gmail.com?subject=Hello%20Henry&body=Hi%20Henry,%0D%0A%0D%0A" className="paint-button"  bg="rgba(0,0,0,0.3)">Send Email</Button>
+          </Card.Footer>
+        </Box>
+      </Card.Root>
+    </Box>
+    </FadeInCard>
+  </Grid>
+  
+</Box>
+
   </Box> 
 
 

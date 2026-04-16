@@ -63,8 +63,8 @@ const Index = () => {
             <div style={{paddingTop:'50px', display:'flex', flexDirection:'column', maxWidth:'180px'}}>
             <FilterProjects setSearchTerm={setSearchTerm} setSelectedCategory={setSelectedCategory} />
             </div> 
-            <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 16px' }}> 
-            <Grid templateColumns="repeat(2, 1fr)" gap="6" justifyItems="center" mt="4">
+            <div style={{ maxWidth: '1800px', margin: '0 auto', padding: '0 16px' }}> 
+            <Grid templateColumns="repeat(3, 1fr)" gap="6" justifyItems="center" mt="4">
                 {projectCards} 
             </Grid>
             </div>
